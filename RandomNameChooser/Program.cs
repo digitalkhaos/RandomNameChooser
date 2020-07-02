@@ -18,7 +18,7 @@ namespace RandomNameChooser
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainForm());
 
             const string path = @"c:\rnc_list";
 
@@ -26,10 +26,9 @@ namespace RandomNameChooser
             {
                 var nameList = File.Create(path);
             }
-            catch (Exception e)
+            catch(Exception e)
             {
                 Console.WriteLine(e);
-                throw;
             }
             
 

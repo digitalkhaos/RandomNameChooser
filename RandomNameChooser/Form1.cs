@@ -10,11 +10,46 @@ using System.Windows.Forms;
 
 namespace RandomNameChooser
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DeleteButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ListButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ChooseButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripMenuItemExit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aboutToolStripMenuItemAbout_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
