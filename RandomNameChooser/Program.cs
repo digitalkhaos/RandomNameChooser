@@ -25,6 +25,7 @@ namespace RandomNameChooser
             try
             {
                 var nameList = File.Create(path);
+                var delimiter = "\r\n";
             }
             catch(Exception e)
             {
