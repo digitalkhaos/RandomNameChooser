@@ -36,4 +36,9 @@ namespace RandomNameChooser
 
         }
     }
+
+    class NameEntry
+    {
+        
+    }
 }
