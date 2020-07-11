@@ -7,13 +7,16 @@ using System.Threading.Tasks;
 
 namespace RandomNameChooser
 {
-    class NameEntry
+    public class NameEntry
     {
-        private readonly string _name;
-
         public NameEntry(string name)
         {
-            _name = name;
+            name = Name;
+        }
+
+        public string Name
+        {
+            get;
         }
     }
 }

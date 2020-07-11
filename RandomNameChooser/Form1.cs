@@ -47,11 +47,12 @@ namespace RandomNameChooser
                 Console.WriteLine(e);
             }
 
-            NameEntry entry1 = new NameEntry("John");
+           
 
 
         }
-    
+        
+        NameEntry entry1 = new NameEntry("John");
 
         private void ExitButton_Click(object sender, EventArgs e)
         {
@@ -70,7 +71,7 @@ namespace RandomNameChooser
 
         private void ListButton_Click(object sender, EventArgs e)
         {
-            
+            MessageBox.Show(entry1.Name);
         }
 
         private void ChooseButton_Click(object sender, EventArgs e)
