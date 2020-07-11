@@ -46,14 +46,7 @@ namespace RandomNameChooser
             {
                 Console.WriteLine(e);
             }
-
-           
-
-
         }
-        
-        NameEntry entry1 = new NameEntry("John");
-
         private void ExitButton_Click(object sender, EventArgs e)
         {
 

@@ -20,6 +20,8 @@ namespace RandomNameChooser
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
+
+            NameEntry entry1 = new NameEntry("John");
         }
     }
 }
